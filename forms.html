@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- html forms - create inputs and outputs that can a user interact -->
+    <form action="">
+        <!-- form groups and identifies that a user can interact with the webpage -->
+        <h1>Sample Form</h1>
+        <p>
+            <!-- paragraph -->
+            <label for="fname">First Name</label>
+            <!-- "for" defines the input type -->
+            <input type="text" id="fname" name="fname">
+            <!-- input element is for interactive controls -->
+        </p>
+        <p>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <!-- Submit confirms the values input by the user -->
+            <input type="reset" value="clear">
+            <!-- Reset - it removes the value inserted by the user -->
+        </p>
+    </form>
+
+    <h1>Survey Form</h1>
+
+    <form action="">
+        <p>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname">
+        </p>
+
+        <p>
+            <label for="lname">Last Name</label>
+            <input type="email" name="lname" id="lname">
+            <!-- you can use /email/ and /text/ while targeting email -->
+        </p>
+
+        <p>
+            <label for="emailAdd">email</label>
+            <input type="text" name="emailAdd" id="emailAdd">
+        </p>
+
+        <p>
+            <input type="radio" name="eType" id="eType">
+            <label for="eType">Onsite</label>
+            <input type="radio" name="eType" id="eType">
+            <label for="eType">Online</label>
+        </p>
+
+        <p>
+            <label for="bNum">Batch Number</label>
+            <select type="select" name="bNum" id="bNum">
+                <!-- select for a drop down -->
+                <option value="b27">Batch 23</option>
+                <option value="b27">Batch 24</option>
+                <option value="b25">Batch 25</option>
+                <option value="b26">Batch 26</option>
+                <option value="b27">Batch 27</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="inst">instructor</label>
+            <input type="text" name="inst" id="inst">
+        </p>
+
+        <p>
+            What do you like about our bootcamp? <br />
+            <input type="checkbox" name="classroom" id="classroom">
+            <label for="classroom">Classroom Experience</label> <br>
+            
+            <input type="checkbox" name="expertise" id="expertise">
+            <label for="expertise">Instructor Expertise</label> <br>
+
+            <input type="checkbox" name="collaboration" id="collaboration">
+            <label for="classroom">Collaboration</label><br>
+
+            <input type="checkbox" name="others" id="others">
+            <label for="classroom">others</label>
+            <input type="text" name="others" id="others" placeholder="Please Specify">
+
+        <p>
+            <label for="comment">Commments for your instructor</label>
+
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="type full comments here"></textarea>
+            <!-- text area for comment section -->
+            <!-- placeholder- helps the user to guide them while fillind up their form -->
+            <!-- you can add /maxLength/ && /minLength/can also be used in password -->
+        </p>
+
+        <p>
+            <button type="submit">Submit</button>
+            
+            <button type="reset">Reset</button>
+        </p>
+
+    </form>
+</body>
+</html>
