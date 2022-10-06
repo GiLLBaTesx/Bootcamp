@@ -1,0 +1,22 @@
+.fname, .lname, .email, .cnum, .loc{
+    width: 500px;
+    
+}
+
+body
+{
+    background-color:#1b1b32;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+form{
+    padding: 10px;
+    
+        width: 60vw;
+        max-width: 500px;
+        min-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 2em;
+    }
