@@ -1,0 +1,61 @@
+/* external stylesheet */
+
+
+/* universal selector */
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* type selector */
+h1
+{
+    font-size: 15px;
+}
+
+
+/* upper case for h2 using id selector */
+#caps
+{
+    text-transform: capitalize;
+}
+
+
+/* bg colors using class selector */
+.lang
+{
+    background-color: green;
+}
+
+
+/* border of tools to be used */
+#java img
+{
+
+    border-radius: 700px;
+}
+
+
+/* list type of other things to be learned using adjacent sibling selector */
+
+div+ul
+{
+    list-style-type: none;
+    
+}
+
+
+/* dimensions in image using descendant selector*/
+div  img
+{
+    width: 50%;
+    height: 50%;
+}
+
+
+/* letter spacing using child selector */
+ul > li
+{
+    letter-spacing: 7px;
+}
