@@ -1,0 +1,48 @@
+.box{
+    /* gives the positioning of the boxes */
+
+        height: 500px;
+        /* gives dimension to the box, spcifically its hwight */
+
+        display: flex;
+        /* allows the usage of flex properties */
+
+        flex-direction: column;
+        /* makes the direction of the boxes into columns */
+        
+        flex-wrap: wrap;
+        /* wraps the spaces from left to right */
+        
+        padding-left: 60px;
+        /* padding-left to add space to the left portion of the box to make the spaces between the boxes look even */
+        padding-top: 50px;
+        /* padding-top to lower or give space on the upper side of the box */
+
+        
+    
+}
+
+.box div{
+    /* gives the design of the box, everything we put inside it alters the appearance of the content and even the box itself */
+
+    height: 500px;
+    /* height of the box itself */
+
+    width: 400px;
+    /* width inside the box */
+
+    border: 3px solid black;
+    /* creates the border to the boxes */
+
+    padding: 5px;
+    /* padding inside the border */
+
+    background-color: lightblue;
+    /* adds background color inside the box */
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* changing the text font, can put anywhere since it only alters the word/text inside the box */
+    
+} 
+
+
