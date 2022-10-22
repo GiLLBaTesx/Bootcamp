@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+
+        <link rel="stylesheet" href="/dist/css/formDesign.css">
+
+    </head>
+    <body>
+        <!-- Fname, Lname, Email, Contact Number Section -->
+        
+        <form action="">
+            <h1>ABC Company IT Support Request Form</h1>
+        <p>
+            <label for="fname">First Name : </label><br>
+            <input class="fname" type="text" name="fname" id="fname">
+        </p>
+
+        <p>
+            <label for="lname">Last Name :  </label><br>
+            <input class="lname" type="text" name="lname" id="lname">
+        </p>
+
+        <p>
+            <label for="email">Email Address : </label><br>
+            <input class="email" type="text" name="email" id="email">
+        </p>
+
+        <p>
+            <label for="cnum">Contact Number : </label><br>
+            <input class="cnum" type="text" name="cnum" id="cnum" placeholder="Enter your complete phone number with extension or mobile number">
+        </p>
+
+        <p>
+            <input type="radio" name="eType" id="Type">
+            <label for="Type">Onsite</label>
+
+            <input type="radio" name="eType" id="eType">
+            <label for="eType">Work From Home</label>
+        </p><br>
+        
+
+        <!-- Location Section -->
+        <p>
+            
+            <label for="location">
+                Location:
+            </label>
+            </b><p></p>
+            For onsite, please state your Workstation No., Department, Floor anf Building <br>
+            For work from home, please complete your address and include landmark nearest to your location. <br>
+            <input type="text" name="loc" id="location" for="location" class="loc">
+        </p><br>
+
+
+
+        <!-- Service Request type Section -->
+        <p>
+            <label for="service">Service Request Type: </label> 
+            <select name="service" id="service" class="service">
+                <!-- using select and option to create a dropdown selection -->
+
+                <option>
+                    <!-- create a --select-- in order to have distinction between the choices-->
+                    <i> 
+                        --select--
+                    </i>
+                </option>
+
+                <option value="Desktop/Laptop Setup">
+                    <!-- function as an option on the dropdown selection created -->
+                    Desktop/Laptop Setup
+                </option>
+
+                <option value="Desktop/Laptop Support">
+                    Desktop/Laptop Support
+                </option>
+
+                <option value="Desktop/Laptop Maintenance">
+                    Desktop/Laptop Maintenance
+                </option>
+
+                <option value="Software Installation">
+                    Software Installation
+                </option>
+
+                <option value="Software Support">
+                    Software Support
+                </option>
+                
+                <option value="Computer Peripheral Setup">
+                    Computer Peripheral Setup
+                </option>
+
+                <option value="Peripheral Troubleshooting">
+                    Peripheral Troubleshooting
+                </option>
+
+                <option value="Computer Peripheral Maintenance">
+                    Computer Peripheral Maintenance
+                </option>
+                
+            </select>
+        </p>
+           
+
+
+        <!-- Request Descrition section -->
+        <p>
+            Request Description : <br>
+            <textarea name="desc" id="" cols="30" rows="10" placeholder="Explain your service request as detailed aas possible"></textarea>
+        </p>
+
+
+        <!-- Upload file section -->
+        <p>
+           
+            <label for="myfile"> Upload a picture screenshot for reference</label>
+            <input type="file" id="myfile" name="myfile" multiple><br><br>
+              <!-- changing type into "file" to open files -->
+        </p>
+
+
+        <!-- submit, reset section -->
+        <p>
+            <button type="submit" onclick="popupfunction()">Submit</button>
+            <!-- using /onclick = "popupfunction()" to create event, wherein there is a message when you click it -->
+            <script>
+                // inserting script for popup functions
+                function popupfunction() 
+                {
+                    alert("Thanks for submitting");
+                }
+            </script>
+
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+    
+
+    
+    </body>
+</html>

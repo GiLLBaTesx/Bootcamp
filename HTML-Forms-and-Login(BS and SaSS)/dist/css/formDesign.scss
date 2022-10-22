@@ -1,0 +1,40 @@
+@mixin format 
+{
+    padding: 70px;
+    margin: 30px;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    
+}
+
+@mixin style 
+{
+    width: 500px    
+}
+
+
+body
+{
+    background-color: #1b1b32;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    form
+    {   
+        background-color: grey;
+        color: white;
+        @include format();
+        h1
+        {
+            text-align: center;
+        }
+
+        .fname, .lname, .email, .cnum, .loc, textarea
+        {
+            @include style
+        }
+
+    }
+}

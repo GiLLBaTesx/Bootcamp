@@ -1,0 +1,21 @@
+body {
+  background-color: #1b1b32;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body form {
+  background-color: grey;
+  color: white;
+  padding: 70px;
+  margin: 30px;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+body form h1 {
+  text-align: center;
+}
+body form .fname, body form .lname, body form .email, body form .cnum, body form .loc, body form textarea {
+  width: 500px;
+}/*# sourceMappingURL=formDesign.css.map */

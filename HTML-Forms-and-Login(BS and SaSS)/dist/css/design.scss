@@ -1,0 +1,50 @@
+$bgcolors: #1b1b32;
+$formcolors: #CCCCCC;
+
+
+*{
+    padding: 0;
+    margin-right: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+#kulay
+{
+    background-color: $bgcolors;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $bgcolors;
+    margin-top: 350px;
+    position: relative;
+    
+    
+}
+form
+{
+    
+    font
+    {
+        font-size: 18px;
+    }
+}
+
+.center
+{
+    padding: 40px;
+    padding-left: 50px;
+    width: 300px;
+    border-radius: 10%;
+    background-color: whitesmoke;
+    button
+    {
+        border-radius: 57px;
+        background: #36454F;
+        box-shadow:  32px 32px 63px #28333a,
+             -32px -32px 63px #445764;
+    }
+}
+button:hover
+{
+           color: $bgcolors;
+}
